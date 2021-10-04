@@ -3,6 +3,7 @@ package homework1709;
 import enums.User;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,9 +33,11 @@ public class Main {
 //        Person person = new Person("Micle","Petrov",181);
 
 
-        MethodOverloading methodOverloading = new MethodOverloading();
-        methodOverloading.returnName();
-        methodOverloading.returnName("Alex",25);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1, 1);
+        map.put(1, 1);
+        map.put(2, 1);
+        System.out.println(map);
 
 
     }
